@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="library/lightbox.min.css">
+</head>
+<body>
+    <!-------------------------- Navbar----------------------- -->
+    <section class="sub-header">
+        <nav>    
+            <a href="home.html">SMAN 17 <br> Kab.TANGERANG</Kab></a>  
+            <div class="nav-links" id="Navlinks">  
+                <i class="fa fa-times" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="informasi.html">Informasi</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+        <h1>Sertifikat Kami & Progam Online Untuk 2022</h1> 
+    </section>
+
+    <!-- -------------- Blog Content -------- -->
+    <div class="blog-content">
+
+        <div class="">
+            <div class="blog-left">
+                <img src="eduford_img/murid_penghargaan.jpg">
+                <h2>Sertifikat Kami & Progam Online Untuk 2022</h2>
+                <p>Selamat kepada Royani Syauqi Saprudin, siswa kelas X MIPA 3 SMA Negeri 17 Kabupaten Tangerang, yang telah meraih Medali Emas pada kegiatan Asian Youth Chess Championship yang diselenggarakan di Bali pada Tahun 2022</p>
+                <br>
+                <p>Selamat untuk IBRENA MAYDON NASYA PUTRI, siswi kelas X MIPA 2 SMAN 17 Kab. Tangerang yang telah memperoleh Medali Perak 50m Gaya Punggung dan Medali Perunggu 100m Gaya Punggung dalam Kejuaraan Renang WIJAYA OPEN 2022 Nasional Terbuka.</p>
+                <br>
+                <p>Keluarga Besar SMAN 17 Kab. Tangerang mengucapkan selamat kepada siswa/i SMAN 17 Kab. Tangerang yang telah dikukuhkan menjadi PASKIBRA Kec. Pagedangan. Semoga sukses dalam melaksanakan tugas di hari kemerdekaan..</p>
+
+
+                <div class="comment-box">
+                    <h3>comment</h3>
+                    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!----------------- end blog --------------------->
+
+    
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Copyright © 2003 - 2022, SIAP PPDB Online Real Time Online. All rights reserved.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <p>Bekerjasama dengan PT Telkom Indonesia</p>
+    </section>
+
+
+    <script>
+        var Navlinks = document.getElementById("Navlinks")
+
+        function showMenu(){
+            Navlinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            Navlinks.style.right = "-200px";
+        }
+    </script>
+</body>

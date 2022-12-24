@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="library/lightbox.min.css">
+</head>
+<body>
+    <!-------------------------- Navbar----------------------- -->
+    <section class="header">
+        <nav>    
+            <a href="">SMAN 17 <br> Kab.TANGERANG</a>
+            <div class="nav-links" id="Navlinks">  
+                <i class="fa fa-times" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="informasi.html">Informasi</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+
+        <div class="text-box">
+            <p>Selamat Datang di Sekolah Kami</p>
+            <h1>SMAN 17 Kab. Tangerang</h1>
+            <a href="" class="hero-btn">Selengkapnya</a>
+        </div>
+    </section>
+
+
+    <!--------------jurusan ------------------------->
+    <section class="jurusan">
+        <h1>Jurusan Di Sekolah Kami</h1>
+        <p>Kami memiliki 3 jurusan yaitu IPA, IPS, dan Bahasa</p>
+
+        <div class="row">
+            <div class="jurusan-col">
+                <h3>IPA</h3>
+                <p>IPA merupakan ilmu pengetahuan yang mempelajari gejala-gejala melalui serankaian proses yang dikenal dengan proses ilmiah</p>
+            </div>
+
+            <div class="jurusan-col">
+                <h3>IPS</h3>
+                <p>IPS merupakan mata pelajaran yang terintegrasi atau terpadu dari ilmu-ilmu sosial dan kemanusiaan sehingga dapat mengembangkan kemampuan menjadi warga negara yang baik.</p>
+            </div>
+
+            <div class="jurusan-col">
+                <h3>BAHASA</h3>
+                <p>Bahasa adalah suatu alat komunikasi yang dimiliki manusia yaitu berupa sistem lambang bunyi yang berasal dari alat ucap atau mulut manusia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------Halaman ------------------ -->
+    <section class="halaman">
+        <h1>Halaman Sekolah Kami</h1>
+        <p>Kami memiliki halaman yang cukupu luas, sehingga siswa bisa melakukan kegiatan dengan baik.</p>
+
+        <div class="row">
+            <div class="halaman-box">
+                <img class="image" src="eduford_img/kantin-sekolah.jpg">
+                <div class="layer">  
+                    <h3>Kantin</h3>
+                </div>
+            </div>
+
+            <div class="halaman-box">
+                <img class="image" src="eduford_img/lapangan.jpg">
+                <div class="layer">                      
+                    <h3>Lapangan</h3>
+                </div>
+            </div>
+
+            <div class="halaman-box">
+                <img class="image" src="eduford_img/halaman.jpg">
+                <div class="layer">   
+                    <h3>Halaman</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------fasilitas --------------- -->
+    <section class="fasilitas">
+        <h1>Fasilitas Kami</h1>
+        <p>Kami ingin para siswa dapat belajar lebih baik dengan meningkatkan fasilitas sekolah.</p>
+
+        <div class="row">
+            <div class="fasilitas-col">
+                <a href="eduford_img/perpustakaan_sekolah.jpg" data-lightbox="Perpustakaan" data-title="Perpustakaan">  
+                   <img src="eduford_img/perpustakaan_sekolah.jpg">
+                </a>
+                <h3>Perpustakaan</h3>
+                <p>Dengan adanya perpustakaan di sekolah bisa membantu siswa maupun guru untuk mendapatkan sumber pembelajaran dan mempermudah menyelesaikan tugas-tugas sekolah. Sebagai seorang siswa cobalah lebih sering datang ke perpustakaan dan membaca banyak buku agar memiliki banyak pengetahuan.</p>
+            </div>
+
+            <div class="fasilitas-col">
+                <a href="eduford_img/lapngan_basket.jpg" data-lightbox="Lapaangan Basket" data-title="Lapangan Basket">
+                  <img src="eduford_img/lapngan_basket.jpg">
+                </a>
+                <h3>Lapangan Basket</h3>
+                <p>mempunyai lapangan di sekolah atau dengan kualitas yang baik akan membawa dampak positif yang besar pula bagi sekolahan itu sendiri mengingat lapangan pada sekolahan sering digunakan untuk segala kegiatan sekolah bahkan diluar kegiatan keolahragaan maka lapangan di sekolahan juga harus benar-benar bagus mutunya dan untuk ketahanan yang prima dapat digunakan bertahun-tahun.</p>
+            </div>
+
+            <div class="fasilitas-col">
+                <a href="eduford_img/laboratorium_2.jpg" data-lightbox="Laboratorium" data-title="Laboratorium">
+                 <img src="eduford_img/laboratorium_2.jpg">
+                </a>
+                <h3>Laboratorium</h3>
+                <p>Laboratorium merupakan suatu wadah atau tempat untuk melakukan eksperimen-eksperimen sebagai pembuktian kebenaran teori-teori yang diberikan dalam kelas, merangsang percobaan tertentu secara terpimpin, atau menemukan sendiri sekaligus meningkatkan daya nalar siswa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- TESTIMONIALS ----------------------->
+
+    <section class="testimoni">
+        <h1>Apa Kata Siswa Kami</h1>
+        <p>Kami menyediakan tempat bagi para siswa untuk mengajukan saran dan kritiknya.</p>
+
+        <div class="row">
+            <div class="testimoni-col">
+                <img src="eduford_img/user1.jpg" alt="">
+                <div >
+                    <p>Sekolah ini memiliki fasilitas yang cukup lengkap, hanya tinggal perluas area parkir bagi para siswa agar tidak parkir di sembarang tempat</p>
+                    <h3>Syifa Aulia Afwillah</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimoni-col">
+                <img src="eduford_img/user2.jpg" alt="">
+                <div>
+                    <p>Saya merasa cukup nyaman sekolah disini karna siswa/siswi yang ramah dan guru-guru yang baik dan sabar mengajarkan pelajaran pada siswa/siswinya</p>
+                    <h3>Bagus Cahya Purnama </h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------ Call to action  --------------------->
+
+    <section class="cta">
+        <h1>Kami Juga Mengadakan Pembelajaran <br> Kursus Untuk Siswa Siswi</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+
+
+    <!-------------- Footer --------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Copyright © 2003 - 2022, SIAP PPDB Online Real Time Online. All rights reserved.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <p>Bekerjasama dengan PT Telkom Indonesia</p>
+    </section>
+    
+
+    <script>
+        var Navlinks = document.getElementById("Navlinks")
+
+        function showMenu(){
+            Navlinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            Navlinks.style.right = "-200px";
+        }
+    </script>
+    <script src="library2/lightbox-plus-jquery.min.js"></script>    <!--link lightbox js-->
+</body>
+</html>

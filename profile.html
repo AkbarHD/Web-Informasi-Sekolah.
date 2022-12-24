@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="library/lightbox.min.css">
+</head>
+<body>
+    <!-------------------------- Navbar----------------------- -->
+    <section class="sub-header">
+        <nav>    
+            <a href="home.html">SMAN 17 <br> Kab.TANGERANG</a>  
+            <div class="nav-links" id="Navlinks">  
+                <i class="fa fa-times" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">Profile</a></li>
+                    <li><a href="informasi.html">Informasi</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+        <h1 class="">Profile</h1> 
+    </section>
+
+    <!-- ------------------visi misi --------------------- -->
+    <div class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Visi & Misi Sekolah</h1>
+                <p>isi merupakan impian/harapan cita-cita yang ingin dicapai oleh warga sekolah. Visi sekolah dijadikan sebagai cita-cita bersama warga sekolah dan segenap pihak yang berkepentingan pada masa yang akan datang, mampu memberikan inspirasi, motivasi, dan kekuatan pada warga sekolah dan segenap pihak yang berkepentingan. <br> <br>
+
+                    Sedangkan misi sekolah merupakan upaya/tindakan yang dilakukan oleh warga sekolah untuk mewujudkan visi sekolah. Yang mana misi sekolah dapat dijelaskan sebagai berikut, bahwasannya visi sekolah <br> <br>
+                    
+                    a.   Memberikan arah dalam mewujudkan visi sekolah sesuai dengan tujuan pendidikan nasional; <br>
+                    b.   Merupakan tujuan yang akan dicapai dalam kurun waktu tertentu; <br>
+                    c.   Menjadi dasar program pokok sekolah/madrasah; <br>
+                    d.   Menekankan pada kualitas layanan peserta didik dan mutu lulusan yang diharapkan oleh sekolah/madrasah; <br>
+                    e.   Memuat pernyataan umum dan khusus yang berkaitan dengan program sekolah; <br>
+                    f.    Memberikan keluwesan dan ruang gerak pengembangan kegiatan satuan-satuan unit sekolah yang terlibat; <br>
+                    g.   Dirumuskan berdasarkan masukan dari segenap pihak yang berkepentingan termasuk komite sekolah dan diputuskan oleh rapat dewan pendidik yang dipimpin oleh kepala sekolah; <br>
+                    h.   Disosialisasikan kepada warga sekolah dan segenap pihak yang berkepentingan; <br>
+                    
+                <a href="" class="hero-btn red-btn">Jelajahi Sekarang</a>
+            </div>
+
+            <div class="about-col">
+                <img src="eduford_img/sman.jpg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Copyright © 2003 - 2022, SIAP PPDB Online Real Time Online. All rights reserved.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <p>Bekerjasama dengan PT Telkom Indonesia</p>
+    </section>
+
+
+    <script>
+        var Navlinks = document.getElementById("Navlinks")
+
+        function showMenu(){
+            Navlinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            Navlinks.style.right = "-200px";
+        }
+    </script>
+</body>

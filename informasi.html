@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="library/lightbox.min.css">
+</head>
+<body>
+    <!-------------------------- Navbar----------------------- -->
+    <section class="sub-header">
+        <nav>    
+            <a href="home.html">SMA 17 <br> Kab.TANGERANG</a>  
+            <div class="nav-links" id="Navlinks">  
+                <i class="fa fa-times" onclick="hideMenu()"></i>  
+                <ul>                 
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="informasi.html">Informasi</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+        <h1>Informasi</h1> 
+    </section>
+
+    <!-- -------------- Course -------- -->
+    
+    <section class="jurusan">
+        <h1>Pendaftaran</h1>
+        <p>Bagi para calon siswa/siswi yang ingin mendaftar bisa langsung datang kesekolah kami.</p>
+
+        <div class="row">
+            <div class="jurusan-col">
+                <h3>Pendaftaran</h3>
+                <p>Bisa isi Formulir yang sudah disediakan di sekolah dan membawa akte kelahiran, kartu keluarga, dan membawa surat kelulusan smp sebelumnya</p>
+            </div>
+
+            <div class="jurusan-col">
+                <h3>Test Academik </h3>
+                <p>Setelah Pendaftaran calon siswa/siswi akan diarahkan untuk mengikuti Test Akademik dan diwajibkan membawa peralatan alat tulis</p>
+            </div>
+
+            <div class="jurusan-col">
+                <h3>Penerimaan</h3>
+                <p>Untuk penerimaan calon siswa/siswi selanjutnya menunggu hasil penerimaan seminggu setelah test akademik yang akan ditampilkan di laman website kami</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------------- Facilities --------------------->
+
+    <section class="jurusan">
+        <h1>Jaluran Pendaftaran</h1>
+        <p>Kami menyediakan tiga jalur pendaftaran.</p>
+
+        <div class="row">
+            <div class="jurusan-col">
+                <h3>Zonasi</h3>
+                <p>Salah satu jalur penerimaan siswa/siswi baru sesuai dengan wilayah tempat tinggal dan sekolah.</p>
+            </div>
+
+            <div class="jurusan-col">
+                <h3>Afirmasi</h3>
+                <p>Jalur yang disediakan untuk siswa/siswi kurang mampu dan mereka menerima program penanganan dari pemerintah pusat ataupun daerah</p>
+            </div>
+
+            <div class="jurusan-col">
+                <h3>Prestasi Akademik & non akademik</h3>
+                <p>Jalur yang diperuntukan bagi peserta didik yang memiliki prestasi dan berada diluar zonasi sekolah sepanjang memenuhi persyaratan</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Copyright © 2003 - 2022, SIAP PPDB Online Real Time Online. All rights reserved.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <p>Bekerjasama dengan PT Telkom Indonesia</p>
+    </section>
+
+
+    <script>
+        var Navlinks = document.getElementById("Navlinks")
+
+        function showMenu(){
+            Navlinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            Navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
